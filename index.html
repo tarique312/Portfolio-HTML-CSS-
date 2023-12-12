@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Tarique - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 34);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.09rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 60px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            margin: 70px 30px;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 85%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        main hr {
+            margin: 60px 84px;
+            border: 0;
+            height: 1.2px;
+            background-color: #9c97f1;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 30px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 170px;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 65px;
+            width: 150px;
+            font-size: 20px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 15px;
+        }
+
+        .thirdSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .thirdSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .thirdSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 30px 0;
+            display: flex;
+        }
+
+        .thirdSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 170px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+            height: 180px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer ul li a{
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+            margin: 5px 0;
+        }
+
+        .footer > div {
+            width: 250px;
+        }
+
+        .text-center {
+            padding: 12px 0;
+            background-color: #0f0f38;
+            margin-top: 15px;
+            text-align: center;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Tarique's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Experience">Work Experience</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection" id="About">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Tarique</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+
+                <div>
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection"><img src="bg.png"></div>
+        </section>
+        <hr>
+        <section class="secondSection" id="Experience">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="py-developer.png" class="image-top">
+                    <div class="vertical-title">
+                        Python Developer (2022-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Working as a Python Developer in STU BIZ Solutions Pvt. Ltd. since Jan, 2022
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="py-developer.png" class="image-top">
+                    <div class="vertical-title">
+                        MERN Stack Developer (Jan,2023-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Learnt about MERN Stack development while doing my job currently I have done some projects but not profesionally.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="tutor.jpeg" class="image-top">
+                    <div class="vertical-title">
+                        Online Web Dev Tutor (2023-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Teaching online for a private institute Abode Graphics, Patna, since Jan, 2023
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        <section class="thirdSection" id="Skills">
+            <span class="text-gray">What are my Skills</span>
+            <h1>Skills</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="py-developer.png" class="image-top">
+                    <div class="vertical-title">
+                        Python/Django
+                    </div>
+                    <div class="vertical-desc">
+                        Learnt Python/Django from Udemy with the help of Durga Sir python and Ashutosh Pawar Sir Django classes
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="py-developer.png" class="image-top">
+                    <div class="vertical-title">
+                        MERN Stack
+                    </div>
+                    <div class="vertical-desc">
+                        Learnt about MERN Stack development from udemy by Dr. Angela Yu's bootcamp and done many projects from the course and outside of the course, and leart all full stack technologies like, JavaScript, HTML, CSS, Node JS, Express JS, React JS and many more
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="tutor.jpeg" class="image-top">
+                    <div class="vertical-title">
+                        Web Dev Tutor
+                    </div>
+                    <div class="vertical-desc">
+                        Teaching online for a private institute Abode Graphics, Patna, since Jan, 2023, and learnt a lot of things while teaching.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Web Developer Tarique's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center">
+            www.tariquesportfolio.com | All Rights Reserved &copy; 2023
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web Developer</i>', '<i>Tutor</i>'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
